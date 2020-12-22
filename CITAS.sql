@@ -10,12 +10,7 @@ FROM cita
 SELECT * 
 FROM historial
 
-INSERT INTO cliente (idcliente,nombrecliente,apellidocliente,tel,direccion,dui) VALUES (1,'manuel' ,'hernandez', '79295427','aqui','02206953-3' )
-INSERT INTO cliente (idcliente,nombrecliente,apellidocliente,tel,direccion,dui) VALUES (2,'alberto' ,'melendez', '79295427','aqui','02206953-3' )
-
-INSERT INTO servicios (idservicios,nombreservicio,serviciodescript)VALUES(1,'depilacion','jhgsjgc')
-INSERT INTO servicios (idservicios,nombreservicio,serviciodescript)VALUES(2,'manicura','akhdal')
-INSERT INTO servicios (idservicios,nombreservicio,serviciodescript) VALUES ('3', 'spa', 'safa')
+INSERT INTO cliente (idcliente,NomUser,status,Correo,Contraseña,Value) VALUES (1,'/<Baldemar Cruz/<' ,'Tracking', '60349238','','02206953-3' )
 
 
 INSERT INTO cita (idcita,fecha,hora,idservicio,idcliente,direccion)VALUES(1,'2020-06-25','18:43:00',1,1,'gkadkgkjzb')
