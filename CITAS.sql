@@ -26,5 +26,4 @@ SELECT COUNT(*)
 FROM cliente
 
 SELECT * FROM cita 
-WHERE hora = "18:43:00"
-
+WHERE hora = "18:43:0
